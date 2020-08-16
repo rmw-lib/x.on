@@ -1,9 +1,4 @@
-export default new Proxy(
-  Object
-  {
-    get: (obj, attr) ->
-      (self, desc)=>
-        console.log self, attr, desc
-        Object.defineProperty self::, attr, desc
-  }
-)
+export default (o, dict)=>
+  for k,v of dict
+    o.on k,v
+  o

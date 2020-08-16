@@ -1,14 +1,16 @@
 {
-  "name": "rmwxxx",
+  "name": "x.on",
   "version": "0.0.1",
-  "repository": "https://github.com/rmw-link/rmwxxx",
+  "repository": "https://github.com/rmw-lib/x.on",
   "author": "i@rmw.link",
   "license": "MulanPSL-2.0",
   "exports": {
     ".": "./lib/index.js",
     "./": "./lib/"
   },
-  "files": ["/lib"],
+  "files": [
+    "/lib"
+  ],
   "dependencies": {},
   "devDependencies": {
     "coffeescript": "^2.5.1",
