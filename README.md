@@ -1,7 +1,7 @@
-# x.on
+# xx.on
 
 ```
-import $on from 'x.on'
+import $on from 'xx.on'
 import Event from 'events'
 e = new Event()
 $on e, {
